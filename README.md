@@ -1,2 +1,2 @@
-# Responsive-Portfolio
-Homework for Responsiveness assignment - Responsive-Portfolio
+# Basic-Portfolio
+02 Homework - recommended homework assignment
