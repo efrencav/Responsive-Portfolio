@@ -122,6 +122,10 @@ h6 {font-size:25px; line-height:30px;}
     footer {
         display: none;
     }
+    .responsive {
+        padding: 10px 6px;
+        width: 100% !important;
+    }
 }
 
 .content-wrapper hr {
