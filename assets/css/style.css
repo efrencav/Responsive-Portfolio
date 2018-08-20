@@ -48,6 +48,7 @@ h6 {font-size:25px; line-height:30px;}
 .logo p {
     margin: 0 20px;
     padding: 0;
+    font-size: 24px;
 }
 
 .nav-normal ul {
@@ -74,6 +75,10 @@ h6 {font-size:25px; line-height:30px;}
     padding: 0 20px 20px 20px;
     margin-top: 20px;
     overflow: auto;
+}
+
+ul {
+    list-style-type: square;
 }
 
 @media screen and (max-width: 768px) {
@@ -164,6 +169,97 @@ footer {
 .bg-light-gray {background-color: #f7f7f7;}
 .bg-teal {background-color:#4aaaa5;}
 
+/* letter spacing */
+.letter-spacing-1 {letter-spacing: 1px;}
+.letter-spacing-2 {letter-spacing: 2px;}
+.letter-spacing-3 {letter-spacing: 3px;}
+.letter-spacing-4 {letter-spacing: 4px;}
+.letter-spacing-5 {letter-spacing: 5px;}
+.letter-spacing-6 {letter-spacing: 6px;}
+.letter-spacing-7 {letter-spacing: 7px;}
+.letter-spacing-8 {letter-spacing: 8px;}
+.letter-spacing-9 {letter-spacing: 9px;}
+.letter-spacing-10 {letter-spacing: 10px}
+
+/* line height */
+.line-height-10 {line-height: 10px;}
+.line-height-20 {line-height: 20px;}
+.line-height-24 {line-height: 24px;}
+.line-height-28 {line-height: 28px;}
+.line-height-32 {line-height: 32px;}
+
+/* margin top */
+.margin-5px-top {margin-top: 5px;}
+.margin-10px-top {margin-top: 10px;}
+.margin-15px-top {margin-top: 15px;}
+.margin-20px-top {margin-top: 20px;}
+.margin-50px-top {margin-top: 50px;}
+.margin-75px-top {margin-top: 75px;}
+.margin-100px-top {margin-top: 100px;}
+
+/* margin bottom */
+.margin-5px-bottom {margin-bottom: 5px;}
+.margin-10px-bottom {margin-bottom: 10px;}
+.margin-15px-bottom {margin-bottom: 15px;}
+.margin-20px-bottom {margin-bottom: 20px;}
+.margin-50px-bottom {margin-bottom: 50px;}
+.margin-75px-bottom {margin-bottom: 75px;}
+.margin-100px-bottom {margin-bottom: 100px;}
+
+/* margin right */
+.margin-5px-right {margin-right: 5px;}
+.margin-10px-right {margin-right: 10px;}
+.margin-15px-right {margin-right: 15px;}
+.margin-20px-right {margin-right: 20px;}
+.margin-50px-right {margin-right: 50px;}
+.margin-75px-right {margin-right: 75px;}
+.margin-100px-right {margin-right: 100px;}
+
+/* margin left */
+.margin-5px-left {margin-left: 5px;}
+.margin-10px-left {margin-left: 10px;}
+.margin-15px-left {margin-left: 15px;}
+.margin-20px-left {margin-left: 20px;}
+.margin-50px-left {margin-left: 50px;}
+.margin-75px-left {margin-left: 75px;}
+.margin-100px-left {margin-left: 100px;}
+
+/* padding top */
+.padding-5px-top {padding-top: 5px;}
+.padding-10px-top {padding-top: 10px;}
+.padding-15px-top {padding-top: 15px;}
+.padding-20px-top {padding-top: 20px;}
+.padding-50px-top {padding-top: 50px;}
+.padding-75px-top {padding-top: 75px;}
+.padding-100px-top {padding-top: 100px;}
+
+/* padding bottom */
+.padding-5px-bottom {padding-bottom: 5px;}
+.padding-10px-bottom {padding-bottom: 10px;}
+.padding-15px-bottom {padding-bottom: 15px;}
+.padding-20px-bottom {padding-bottom: 20px;}
+.padding-50px-bottom {padding-bottom: 50px;}
+.padding-75px-bottom {padding-bottom: 75px;}
+.padding-100px-bottom {padding-bottom: 100px;}
+
+/* padding left */
+.padding-5px-left {padding-left: 5px;}
+.padding-10px-left {padding-left: 10px;}
+.padding-15px-left {padding-left: 15px;}
+.padding-20px-left {padding-left: 20px;}
+.padding-50px-left {padding-left: 50px;}
+.padding-75px-left {padding-left: 75px;}
+.padding-100px-left {padding-left: 100px;}
+
+/* padding options */
+.no-padding {padding:0 !important}
+.no-padding-lr {padding-left: 0 !important; padding-right: 0 !important;}
+.no-padding-tb {padding-top: 0 !important; padding-bottom: 0 !important;}
+.no-padding-top {padding-top: 0 !important;}
+.no-padding-bottom {padding-bottom: 0 !important;}
+.no-padding-left {padding-left: 0 !important;}
+.no-padding-right {padding-right: 0 !important;}
+
 /* input */
 .input-border-bottom {background: transparent;
     border: 0;
@@ -186,7 +282,6 @@ footer {
     margin:0;
     padding:0;
     float: right;
-
 }
 
 .profileImage {
@@ -282,6 +377,11 @@ input[type=email] {
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
+}
+
+p {
+    font-size: 16px;
+    line-height: 20px;
 }
 
 .left {
