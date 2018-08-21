@@ -13,7 +13,7 @@ body {
     position: relative;
     margin:0;
     padding-bottom: 70px;
-    background-image: url("../images/what-the-hex.png");
+    background-image: url("../images/wov.png");
     background-repeat: repeat;
     font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
 }
@@ -60,7 +60,7 @@ h6 {font-size:25px; line-height:30px;}
     float: right;
     text-decoration: none;
     color: #fff;
-    padding: 0px 15px;
+    padding: 22px 15px;
     line-height: 75px;
 }
 .nav-normal a:hover {
@@ -108,6 +108,7 @@ ul {
     }
     h1 {
         text-align: center;
+        font-size: 24px;
     }
     .profileImage {
         max-width: 768px !important;
